@@ -13,8 +13,8 @@ const seo = {
   og: {
     title: "Prince Amit Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/"
-  }
+    url: "http://ashutoshhathidara.com/",
+  },
 };
 
 //Home Page
@@ -22,23 +22,24 @@ const greeting = {
   title: "Prince Amit",
   logo_name: "PrinceAmit",
   nickname: "Python_monk",
-  subTitle: "A passionate individual that always loves to work on practical issues to produce a sustainable and scalable technical system that impacts society.",
+  subTitle:
+    "A passionate individual that always loves to work on practical issues to produce a sustainable and scalable technical system that impacts society.",
   resumeLink:
     "https://drive.google.com/file/d/18zLynWwG7Lnx-yZLzexDBWlv41DYO3AK/view?usp=sharing",
   portfolio_repository: "https://github.com/princeamitlali",
-  githubProfile: "https://github.com/princeamitlali"
+  githubProfile: "https://github.com/princeamitlali",
 };
 
 const socialMediaLinks = [
-{
-  // github :"https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-},
+  {
+    // github :"https://github.com/ashutosh1919",
+    // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    // gmail: "ashutoshhathidara98@gmail.com",
+    // gitlab: "https://gitlab.com/ashutoshhathidara98",
+    // facebook: "https://www.facebook.com/laymanbrother.19/",
+    // twitter: "https://twitter.com/ashutosh_1919",
+    // instagram: "https://www.instagram.com/layman_brother/"
+  },
   {
     name: "Github",
     link: "https://github.com/princeamitlali",
@@ -92,7 +93,6 @@ const skills = {
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-
       ],
       softwareSkills: [
         {
@@ -391,7 +391,43 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
       alt_name: "deeplearning.ai",
       color_code: "#00274c",
-    }
+    },
+    {
+      title: "Supervised Machine Learning: Regression and Classification",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford-university-logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/RJ8XRKARBUKF",
+      alt_name: "deeplearning.ai",
+      color_code: "#00274c",
+    },
+    {
+      title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford-university-logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/VCU3JF2BYBCQ",
+      alt_name: "deeplearning.ai",
+      color_code: "#00274c",
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford-university-logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/KPF69HSA84RB",
+      alt_name: "deeplearning.ai",
+      color_code: "#00274c",
+    },
+    {
+      title: "Advanced Learning Algorithms",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford-university-logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/J5E349QYPP8C",
+      alt_name: "deeplearning.ai",
+      color_code: "#00274c",
+    },
   ],
 };
 
@@ -424,11 +460,9 @@ const scorecards = {
         "https://drive.google.com/file/d/1W0k2jtgoOBdaq8AKgtEdItMUwi7KIRw6/view?usp=sharing",
       alt_name: "Google",
       color_code: "#0C9D5899",
-    }
-
+    },
   ],
 };
-
 
 // Achievements card
 const Achievements = {
@@ -548,7 +582,8 @@ const Achievements = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:"I have experience working with the Indian Institute of Technology as an ML and DL researcher in the fields of computer vision and natural language processing. I have also collaborated with a few multinational corporations, primarily in the field of machine learning and now working on Mindtree's Amazon Web Services cloud ",
+  description:
+    "I have experience working with the Indian Institute of Technology as an ML and DL researcher in the fields of computer vision and natural language processing. I have also collaborated with a few multinational corporations, primarily in the field of machine learning and now working on Mindtree's Amazon Web Services cloud ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -561,7 +596,8 @@ const experience = {
           logo_path: "mind.png",
           duration: "march 2021 - PRESENT",
           location: "Banglore",
-          description:"As a full-stack developer, I use Angular in the front end and Python with AWS services at the back end of the applications I develop. I am collaborating on a project with a leading real estate firm that operates in the United States and Canada. Our main goal is to shorten the drawn-out property investment processes ",
+          description:
+            "As a full-stack developer, I use Angular in the front end and Python with AWS services at the back end of the applications I develop. I am collaborating on a project with a leading real estate firm that operates in the United States and Canada. Our main goal is to shorten the drawn-out property investment processes ",
           color: "#0879bf",
         },
       ],
@@ -576,10 +612,11 @@ const experience = {
           logo_path: "vestella.png",
           duration: "January 2020 - july 2020",
           location: "Seoul,korea",
-          description:"I worked as a machine learning developer to develop an anti-cheating system that might cut cheating by up to 40% while simultaneously improving data quality by 20% through scrutinising and automating the pipeline for data screening and anomaly detection ",
+          description:
+            "I worked as a machine learning developer to develop an anti-cheating system that might cut cheating by up to 40% while simultaneously improving data quality by 20% through scrutinising and automating the pipeline for data screening and anomaly detection ",
           color: "#000000",
           certificate_link:
-        "https://drive.google.com/file/d/1PC8oBGbaL3mPRWsIbvd0OZCLRXZzxYVN/view",
+            "https://drive.google.com/file/d/1PC8oBGbaL3mPRWsIbvd0OZCLRXZzxYVN/view",
         },
         {
           title: "Research Intern",
@@ -589,23 +626,24 @@ const experience = {
           logo_path: "iitp.png",
           duration: "may 2019 - july 2019",
           location: "Patna",
-          description:"The Extractive Summarization model was trained in NLP to a 41.59 R-score. In contrast, computer vision used data processing to produce more than 5 lakh data points that were used with a paragraph generator model to produce paragraphs. Moreover, the dataset for the multilingual research was annotated.",
+          description:
+            "The Extractive Summarization model was trained in NLP to a 41.59 R-score. In contrast, computer vision used data processing to produce more than 5 lakh data points that were used with a paragraph generator model to produce paragraphs. Moreover, the dataset for the multilingual research was annotated.",
           color: "#0071C5",
           certificate_link:
-        "https://drive.google.com/file/d/1aZwDq8bxlZd-yoz-fvjXVuthgMheXKf6/view?usp=sharing",
+            "https://drive.google.com/file/d/1aZwDq8bxlZd-yoz-fvjXVuthgMheXKf6/view?usp=sharing",
         },
         {
           title: "Web Developer Intern",
           company: "B.E.L.T.R.O.N",
-          company_url:
-            "https://bsedc.bihar.gov.in/",
+          company_url: "https://bsedc.bihar.gov.in/",
           logo_path: "beltron.png",
           duration: "may 2018 - August 2018",
           location: "Patna",
-          description:"For marine engineers, we created a fully functional website with a recommendation and suggestion system built on SQL.",
+          description:
+            "For marine engineers, we created a fully functional website with a recommendation and suggestion system built on SQL.",
           color: "#0071C5",
           certificate_link:
-        "https://drive.google.com/file/d/1tKr3KzO87diGRiwIgwmxRW1hiky8OKFu/view?usp=sharing",
+            "https://drive.google.com/file/d/1tKr3KzO87diGRiwIgwmxRW1hiky8OKFu/view?usp=sharing",
         },
       ],
     },
@@ -615,15 +653,16 @@ const experience = {
         {
           title: "All India Topper",
           company: "Ministry of Human resource development",
-          company_url: "https://www.india.gov.in/official-website-ministry-human-resource-development-0",
+          company_url:
+            "https://www.india.gov.in/official-website-ministry-human-resource-development-0",
           logo_path: "mhrd.png",
           duration: "2013",
           location: "New Delhi",
-          description:"1/100 in India were congratulated by the prime minister. MHRD chose them based on their academic performance in the secondary test.",
+          description:
+            "1/100 in India were congratulated by the prime minister. MHRD chose them based on their academic performance in the secondary test.",
           color: "#4285F4",
           certificate_link:
-          "https://drive.google.com/file/d/1GM3i8W4Q0l427qsJdW1KrXTq8YtwLwVx/view",
-          
+            "https://drive.google.com/file/d/1GM3i8W4Q0l427qsJdW1KrXTq8YtwLwVx/view",
         },
         {
           title: "World Skill Competition",
@@ -632,9 +671,11 @@ const experience = {
           logo_path: "bsdm.png",
           duration: "2019",
           location: "Patna, Bihar",
-          description:"Bronze medalist in the World skill competition organized by the skill devlopment department of Bihar",
+          description:
+            "Bronze medalist in the World skill competition organized by the skill devlopment department of Bihar",
           color: "#D83B01",
-          certificate_link:"https://drive.google.com/file/d/1R5u3IpdTi98X6YB020orI8b5l1x0klf8/view",
+          certificate_link:
+            "https://drive.google.com/file/d/1R5u3IpdTi98X6YB020orI8b5l1x0klf8/view",
         },
         {
           title: "Ideathon",
@@ -643,9 +684,11 @@ const experience = {
           logo_path: "dit.png",
           duration: "2019",
           location: "Patna, Bihar",
-          description:"My proposal PhoNav, which was essentially an idea for a navigation system for those who are blind or visually impaired, was chosen among 35 others from across the country to present to major companies and IT giants in India.",
+          description:
+            "My proposal PhoNav, which was essentially an idea for a navigation system for those who are blind or visually impaired, was chosen among 35 others from across the country to present to major companies and IT giants in India.",
           color: "#000000",
-          certificate_link:"https://drive.google.com/file/d/1UA_zYZcA4QWKoD4dha99sWjY-kacUAxk/view",
+          certificate_link:
+            "https://drive.google.com/file/d/1UA_zYZcA4QWKoD4dha99sWjY-kacUAxk/view",
         },
       ],
     },
@@ -655,7 +698,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:"My designs utilise a wide range of cutting-edge technological techniques. Using cloud infrastructure, I have the most experience developing Data Science projects and deploying them to web apps ",
+  description:
+    "My designs utilise a wide range of cutting-edge technological techniques. Using cloud infrastructure, I have the most experience developing Data Science projects and deploying them to web apps ",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -686,7 +730,8 @@ const contactPageData = {
     subtitle:
       " H No 410, Vivan residency, 7th cross. 3rd main, 1st phase, Mylasandra Global Village back gate, Bengaluru - 560059",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/VIVAAN+RESIDENCY+PG+for+Gents+%26+Service+Apartments/@12.9141402,77.4981665,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae3f1c4bab60f5:0x11e5ce6c9e2469ae!8m2!3d12.9141402!4d77.5003552",
+    location_map_link:
+      "https://www.google.com/maps/place/VIVAAN+RESIDENCY+PG+for+Gents+%26+Service+Apartments/@12.9141402,77.4981665,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae3f1c4bab60f5:0x11e5ce6c9e2469ae!8m2!3d12.9141402!4d77.5003552",
   },
   phoneSection: {
     title: "Phone Number",
@@ -708,5 +753,5 @@ export {
   publicationsHeader,
   contactPageData,
   scorecards,
-  Achievements
+  Achievements,
 };
