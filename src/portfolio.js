@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Prince Amit Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
